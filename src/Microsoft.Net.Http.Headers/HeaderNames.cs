@@ -57,6 +57,7 @@ namespace Microsoft.Net.Http.Headers
         public const string ProxyAuthorization = "Proxy-Authorization";
         public const string Range = "Range";
         public const string Referer = "Referer";
+        public const string ReferrerPolicy = "Referrer-Policy";
         public const string RetryAfter = "Retry-After";
         public const string Scheme = ":scheme";
         public const string Server = "Server";
@@ -73,5 +74,8 @@ namespace Microsoft.Net.Http.Headers
         public const string Warning = "Warning";
         public const string WebSocketSubProtocols = "Sec-WebSocket-Protocol";
         public const string WWWAuthenticate = "WWW-Authenticate";
+        public const string XContentTypeOptions = "X-Content-Type-Options";
+        public const string XFrameOptions = "X-Frame-Options";
+        public const string XXssProtection = "X-XSS-Protection";
     }
 }
